@@ -1,0 +1,13 @@
+GitとGitHubの導入について
+    ○Gitのインストール
+        1.Gitの最新版をインストール
+        2.設定は一部変更する
+    
+    ○Gitの設定
+        1.Git Bashを起動し、Gitのユーザー設定を行う
+            $ git config --global user.name "ユーザー名"
+            $ git config --global user.email メールアドレス
+                ※メールアドレスはGitHubのパブリックリポジトリに公開されているものに
+                　commitした場合に公開されてしまうため、設定する際は注意
+            
+        2.sshの設定
